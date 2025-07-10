@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>云南小众旅游团</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#4A90E2',
+                        secondary: '#F5A623'
+                    },
+                    borderRadius: {
+                        'none': '0px',
+                        'sm': '2px',
+                        DEFAULT: '4px',
+                        'md': '8px',
+                        'lg': '12px',
+                        'xl': '16px',
+                        '2xl': '20px',
+                        '3xl': '24px',
+                        'full': '9999px',
+                        'button': '4px'
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-gray-50">
+    <nav class="fixed top-0 w-full bg-white shadow-md z-50 px-4 py-3 flex items-center justify-between">
+        <button class="text-gray-600">
+            <i class="fas fa-arrow-left text-xl"></i>
+        </button>
+        <h1 class="text-lg font-semibold">云南小众旅游团</h1>
+        <div class="flex gap-4">
+            <button class="text-gray-600">
+                <i class="far fa-heart text-xl"></i>
+            </button>
+            <button class="text-gray-600">
+                <i class="fas fa-share-alt text-xl"></i>
+            </button>
+        </div>
+    </nav>
+
+    <div class="mt-14 mb-24">
+        <div class="relative h-64 overflow-hidden">
+            <img src="image/home/home_bg.jpg" 
+                 class="w-full h-full object-cover" alt="芒市风光">
+            <div class="absolute bottom-0 w-full bg-gradient-to-t from-black/60 to-transparent p-4">
+                <h2 class="text-white text-xl font-semibold">芒市 · 边陲小城的独特魅力</h2>
+            </div>
+        </div>
+        <div class="p-4 space-y-4">
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2">芒市+瑞丽一日游</h3>
+                <img src="image/home/mangshi_Ruili_Day_Trip.jpg" 
+                     class="w-full h-48 object-cover rounded-lg mb-3" alt="瑞丽玉石市场">
+                <p class="text-gray-600 text-sm mb-2">行程亮点：玉石市场 · 姐告边贸 · 独树成林</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-primary font-semibold">极致浓缩</span>
+                    <button class="bg-primary text-white px-4 py-2 !rounded-button">查看详情</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2">芒市+瑞丽两日游</h3>
+                <img src="image/home/mangshi_Ruili_Two_Day_Tour.jpg"
+                    class="w-full h-48 object-cover rounded-lg mb-3" alt="傣族村寨">
+                <p class="text-gray-600 text-sm mb-2">行程亮点：傣族村寨 · 边境夜市 · 南甸豆腐节 · 姐告一条街</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-primary font-semibold">边境风光</span>
+                    <button class="bg-primary text-white px-4 py-2 !rounded-button">查看详情</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2">芒市+腾冲两日游</h3>
+                <img src="image/home/mangshi_Tengchong_Two_Day_Tour.jpg" 
+                     class="w-full h-48 object-cover rounded-lg mb-3" alt="腾冲热海">
+                <p class="text-gray-600 text-sm mb-2">行程亮点：和顺古镇 · 热海公园 · 火山地质公园</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-primary font-semibold">深度环游</span>
+                    <button class="bg-primary text-white px-4 py-2 !rounded-button">查看详情</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-2">芒市→腾冲→瑞丽 5 日游</h3>
+                <img src="image/home/mangshi_Tengchong_Ruili_Five_Day_Tour.jpg" 
+                     class="w-full h-48 object-cover rounded-lg mb-3" alt="民族村寨">
+                <p class="text-gray-600 text-sm mb-2">行程亮点：民族村寨 · 温泉养生 · 边境风情</p>
+                <div class="flex justify-between items-center">
+                    <span class="text-primary font-semibold">秘境沉浸</span>
+                    <button class="bg-primary text-white px-4 py-2 !rounded-button">查看详情</button>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md p-4">
+                <h3 class="text-lg font-semibold mb-4">预订须知</h3>
+                <div class="space-y-3 text-sm text-gray-600">
+                    <p>· 集合地点：芒市客运站广场</p>
+                    <p>· 集合时间：每日上午 8:00</p>
+                    <p>· 最少成团人数：4 人</p>
+                    <p>· 预订截止时间：出发前 1 天 18:00</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="fixed bottom-0 left-0 w-full bg-white border-t border-gray-100 p-4">
+        <button class="w-full bg-primary text-white py-3 font-medium !rounded-button">电话/微信咨询 : 17752539776</button>
+    </div>
+    <!-- <div class="fixed bottom-0 w-full bg-white shadow-up p-4 flex items-center justify-between">
+        <button class="flex flex-col items-center justify-center text-gray-600">
+            <i class="fas fa-comments text-xl"></i>
+            <span class="text-xs mt-1">在线咨询</span>
+        </button>
+        <button class="bg-primary text-white px-8 py-3 !rounded-button">
+            立即预订
+        </button>
+        <button class="flex flex-col items-center justify-center text-gray-600">
+            <i class="fas fa-phone text-xl"></i>
+            <span class="text-xs mt-1">电话预约</span>
+        </button>
+    </div> -->
+</body>
+</html>
